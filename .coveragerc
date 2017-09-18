@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/django_allauth_auth0
+   */site-packages/django_allauth_auth0
+
+[run]
+branch = true
+source =
+    django_allauth_auth0
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
